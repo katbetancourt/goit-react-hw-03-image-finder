@@ -14,7 +14,7 @@ const App = () => {
   const [page, setPage] = useState(1);
   const [selectedImage, setSelectedImage] = useState(null);
 
-  const imagesPerPage = 12; // Número de imágenes por página
+  const imagesPerPage = 12;
 
   useEffect(() => {
     if (!query) return;
